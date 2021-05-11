@@ -1,0 +1,81 @@
+server:
+  port: 8086
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://49.75.185.37:3236/cyphy_plat_premission?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: Cyphy@2021
+  jackson:
+    date-format: yyyy-mm-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false
+  freemarker:
+      request-context-attribute: request
+      #prefix: /templates/
+      suffix: .html
+      content-type: text/html
+      enabled: true
+      cache: false
+      charset: UTF-8
+      allow-request-override: false
+      expose-request-attributes: true
+      expose-session-attributes: true
+      expose-spring-macro-helpers: true
+      #template-loader-path: classpath:/templates/
+
+  #对于rabbitMQ的支持
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+  ## Redis 配置
+  redis:
+    ## Redis数据库索引（默认为0）
+    database: 0
+    ## Redis服务器地址
+    host: 127.0.0.1
+    ## Redis服务器连接端口
+    port: 6379
+    ## Redis服务器连接密码（默认为空）
+    password:
+    jedis:
+      pool:
+        ## 连接池最大连接数（使用负值表示没有限制）
+        #spring.redis.pool.max-active=8
+        max-active: 8
+        ## 连接池最大阻塞等待时间（使用负值表示没有限制）
+        #spring.redis.pool.max-wait=-1
+        max-wait: -1
+        ## 连接池中的最大空闲连接
+        #spring.redis.pool.max-idle=8
+        max-idle: 8
+        ## 连接池中的最小空闲连接
+        #spring.redis.pool.min-idle=0
+        min-idle: 0
+    ## 连接超时时间（毫秒）
+    timeout: 1200
+
+mybatis-plus:
+  configuration:
+    map-underscore-camel-case: true
+    auto-mapping-behavior: full
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    # 逻辑删除配置
+    db-config:
+      #主键类型  AUTO:"数据库ID自增", INPUT:"用户输入ID",ID_WORKER:"全局唯一ID (数字类型唯一ID)", UUID:"全局唯一ID UUID";
+      id-type: AUTO
+      # 删除前
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+      # 删除后
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+logging:
+  config: classpath:logback-dev.xml
+
+
+

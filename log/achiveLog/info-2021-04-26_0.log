@@ -1,0 +1,492 @@
+2021-04-26 10:46:50.393 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 6896 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 10:46:50.405 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 10:46:52.308 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 10:46:52.311 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 10:46:52.347 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2021-04-26 10:46:52.745 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$bbeccd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 10:46:53.151 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 10:46:53.158 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 10:46:53.158 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 10:46:53.158 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 10:46:53.223 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 10:46:53.223 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2635 ms
+2021-04-26 10:46:54.488 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 10:46:54.573 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 10:46:55.044 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 10:46:55.064 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 10:46:55.066 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 10:46:55.184 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#4eb45fec:0/SimpleConnection@1d6751e3 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55895]
+2021-04-26 10:46:55.194 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-gQgcnIBxSqeY72T_eLJxhQ) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 10:46:55.194 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-KXcBX_1RS12bER9E_enfYQ) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 10:46:55.300 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 6.137 seconds (JVM running for 7.866)
+2021-04-26 10:48:47.339 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 10:48:47.339 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 10:48:47.340 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-26 10:48:47.372 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：这是我发的消息
+2021-04-26 10:57:35.749 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 3292 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 10:57:35.751 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 10:57:36.469 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 10:57:36.472 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 10:57:36.495 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-26 10:57:36.730 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$7f7e2be7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 10:57:36.980 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 10:57:36.988 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 10:57:36.989 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 10:57:36.989 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 10:57:37.059 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 10:57:37.059 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1262 ms
+2021-04-26 10:57:38.060 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 10:57:38.130 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 10:57:38.475 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 10:57:38.492 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 10:57:38.494 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 10:57:38.523 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#1946384:0/SimpleConnection@6814262d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56290]
+2021-04-26 10:57:38.527 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-UdMke9CSSa6OZs5KnxUQRw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 10:57:38.528 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-pwIrBzvvTYKfG2sCcdTFSw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 10:57:38.594 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.359 seconds (JVM running for 4.985)
+2021-04-26 10:58:31.404 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 10:58:31.405 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 10:58:31.406 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-26 10:58:31.488 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=c3b857a4-ed15-4816-a384-504059a01055]
+2021-04-26 10:58:31.489 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 10:58:31.490 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=d8245aea-df4c-47c2-8179-8431e697ac3c]
+2021-04-26 10:58:31.490 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 10:58:31.491 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：我发的是单个消息====
+2021-04-26 10:58:31.494 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=029c1a08-fb65-435d-828b-ae499c1aa5ef]
+2021-04-26 10:58:31.494 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 10:58:31.494 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=c2e082e0-1783-4b01-8bfc-430d3f8f4c29]
+2021-04-26 10:58:31.495 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 10:58:31.495 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=b3a3f489-720b-4598-925e-1f729605698f]
+2021-04-26 10:58:31.495 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 10:58:31.508 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 10:58:31.508 INFO  com.atguigu.controller.MsgReceiverC_one - 处理器one接收处理队列A当中的消息： 我发送的是多个消息》》》
+2021-04-26 10:58:31.508 INFO  com.atguigu.controller.MsgReceiverC_two - 处理器two接收处理队列A当中的消息： 我发送的是多个消息》》》
+2021-04-26 10:58:31.509 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 10:58:31.509 INFO  com.atguigu.controller.MsgReceiverC_one - 处理器one接收处理队列A当中的消息： 我发送的是多个消息》》》
+2021-04-26 11:01:03.778 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 9772 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 11:01:03.780 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 11:01:04.443 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 11:01:04.445 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 11:01:04.468 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-26 11:01:04.708 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$bbacfd4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 11:01:04.953 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 11:01:04.961 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:01:04.961 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 11:01:04.962 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 11:01:05.029 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 11:01:05.029 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1198 ms
+2021-04-26 11:01:05.895 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 11:01:05.960 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 11:01:06.295 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:01:06.313 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 11:01:06.315 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 11:01:06.348 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#65ef48f2:0/SimpleConnection@4a453f8d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56426]
+2021-04-26 11:01:06.352 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-FQ9DnFlUTzG2W-HQ_KKkxw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:01:06.352 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-cM_x9o3_RdGX1-CkBGQQ7w) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:01:06.418 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.23 seconds (JVM running for 4.225)
+2021-04-26 11:04:16.353 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 11:04:16.353 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 11:04:16.354 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-26 11:04:16.389 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:04:16.392 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=7ae08cb7-978e-46f6-9124-946a892e6b2b]
+2021-04-26 11:04:16.394 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:04:16.394 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=62fe9133-3404-4fb8-83b5-353479fa09cd]
+2021-04-26 11:04:16.394 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:04:16.443 INFO  com.atguigu.controller.MsgReceiverC_one - 处理器one接收处理队列A当中的消息： 我发送的是多个消息》》》
+2021-04-26 11:04:16.443 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=df4452b9-5ae1-4145-aca9-adaef24ef609]
+2021-04-26 11:04:16.443 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:04:16.443 INFO  com.atguigu.controller.MsgReceiverC_two - 处理器two接收处理队列A当中的消息： 我发送的是多个消息》》》
+2021-04-26 11:04:16.445 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:04:16.446 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=977d82dc-5596-4dcf-b68b-782c8b9b5b06]
+2021-04-26 11:04:16.446 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:04:16.446 INFO  com.atguigu.controller.MsgReceiverC_one - 处理器one接收处理队列A当中的消息： 我发送的是多个消息》》》
+2021-04-26 11:04:16.448 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=6b513fb4-68c4-456f-9d04-874089a23988]
+2021-04-26 11:04:16.448 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:54:09.583 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 1444 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 11:54:09.585 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 11:54:10.268 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 11:54:10.270 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 11:54:10.292 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-26 11:54:10.532 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$bbacfd4c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 11:54:10.803 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 11:54:10.811 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:54:10.812 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 11:54:10.812 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 11:54:10.882 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 11:54:10.882 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1250 ms
+2021-04-26 11:54:11.601 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-04-26 11:54:11.612 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-26 11:54:43.052 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 1332 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 11:54:43.055 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 11:54:43.721 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 11:54:43.723 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 11:54:43.746 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-26 11:54:43.999 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$83df4d91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 11:54:44.256 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 11:54:44.263 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:54:44.264 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 11:54:44.264 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 11:54:44.337 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 11:54:44.337 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1237 ms
+2021-04-26 11:54:45.058 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-04-26 11:54:45.067 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-26 11:55:15.406 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 11756 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 11:55:15.409 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 11:55:16.143 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 11:55:16.146 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 11:55:16.169 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-26 11:55:16.408 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$106fcd87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 11:55:16.660 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 11:55:16.667 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:55:16.668 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 11:55:16.668 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 11:55:16.739 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 11:55:16.739 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1284 ms
+2021-04-26 11:55:17.417 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-04-26 11:55:17.426 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-26 11:55:50.108 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 12908 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 11:55:50.110 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 11:55:50.806 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 11:55:50.808 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 11:55:50.837 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-04-26 11:55:51.086 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$106fcd87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 11:55:51.331 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 11:55:51.340 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:55:51.341 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 11:55:51.341 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 11:55:51.412 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 11:55:51.412 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1257 ms
+2021-04-26 11:55:52.307 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 11:55:52.372 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 11:55:52.697 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:55:52.714 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 11:55:52.716 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 11:55:52.747 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#7186b202:0/SimpleConnection@19ac93d2 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59096]
+2021-04-26 11:55:52.751 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-KEfSgFRUR-2NySabOus1cw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:55:52.751 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-zNPR5I5CTOGTO6yVKdxjCg) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:55:52.812 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.358 seconds (JVM running for 4.319)
+2021-04-26 11:56:11.101 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 3940 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 11:56:11.103 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 11:56:11.789 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 11:56:11.791 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 11:56:11.814 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-26 11:56:12.048 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$d025851d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 11:56:12.296 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 11:56:12.304 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:56:12.304 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 11:56:12.305 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 11:56:12.372 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 11:56:12.372 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1223 ms
+2021-04-26 11:56:13.261 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 11:56:13.326 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 11:56:13.651 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:56:13.668 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 11:56:13.670 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 11:56:13.701 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#36068727:0/SimpleConnection@1a0ffb9b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59123]
+2021-04-26 11:56:13.705 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-Jv4hGa3QRua9rjRaclMcgw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:56:13.705 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-mfNbomBjRTK0fACBLoTTUw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:56:13.768 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.271 seconds (JVM running for 4.213)
+2021-04-26 11:56:18.765 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 11:56:18.765 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 11:56:18.766 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-26 11:56:18.797 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:18.802 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=3920e755-c16e-475e-9208-eadab1cef603]
+2021-04-26 11:56:18.802 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:18.803 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=c6598689-6005-4adf-b297-bded331c3b4e]
+2021-04-26 11:56:18.803 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:18.804 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=0c0959c7-dacf-44cd-adc0-022f365fa248]
+2021-04-26 11:56:18.804 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:18.804 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:18.805 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:18.809 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:18.810 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=6a041d08-825f-41b3-9c61-603870474754]
+2021-04-26 11:56:18.810 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:18.811 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=b14278b0-0ab5-4217-a263-b3cf27d7edac]
+2021-04-26 11:56:18.811 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:18.815 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:38.165 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:38.167 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=5ed8e3a5-8cf1-4460-86ae-2bccda1f7d09]
+2021-04-26 11:56:38.167 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:38.168 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=60888a23-5326-4950-9b71-db0eec3f4455]
+2021-04-26 11:56:38.168 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=8b04ebdb-0cdd-47b7-a365-bf1517050b62]
+2021-04-26 11:56:38.169 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:38.169 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:38.169 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:38.169 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=4a7558f7-98eb-4612-b142-3792cc4acbb7]
+2021-04-26 11:56:38.170 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:38.175 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:38.175 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=d0566c8e-4b67-427d-aa8b-e852c83066b7]
+2021-04-26 11:56:38.175 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:56:38.175 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:56:38.176 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:57:05.430 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:57:05.436 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=9dfce35e-f3ee-44d4-b6b1-7943b428c29f]
+2021-04-26 11:57:05.436 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:57:05.439 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=8f1b0412-4ffa-4394-b29e-7d94c8e2991d]
+2021-04-26 11:57:05.439 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=765ca7e9-5c44-4b21-a152-6111349eac39]
+2021-04-26 11:57:05.439 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=a5601414-0904-4023-8f78-19da0b49dcf8]
+2021-04-26 11:57:05.439 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:57:05.439 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:57:05.439 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:57:05.439 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:57:05.439 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=81fcc6cf-c29c-4f2a-bb06-26a70a18d104]
+2021-04-26 11:57:05.439 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:57:05.440 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:57:05.440 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:57:05.441 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:57:39.346 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 12720 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 11:57:39.349 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 11:57:40.017 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 11:57:40.019 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 11:57:40.042 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-26 11:57:40.285 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$5bea6bae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 11:57:40.569 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 11:57:40.577 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:57:40.577 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 11:57:40.577 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 11:57:40.658 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 11:57:40.659 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1265 ms
+2021-04-26 11:57:52.478 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 11:57:52.544 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 11:57:52.876 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:57:52.894 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 11:57:52.896 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 11:57:52.927 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#1039bfc4:0/SimpleConnection@58ebee9 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59193]
+2021-04-26 11:57:52.932 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-j2bVHwYZQ6uZm8JfE8IhXg) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:57:52.932 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-thv2l78xReu0kyCP2QVhPg) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:57:52.996 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 14.271 seconds (JVM running for 15.307)
+2021-04-26 11:58:07.429 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 11:58:07.429 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 11:58:07.430 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-04-26 11:58:07.465 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:58:07.468 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=d69633db-ec03-4790-9e10-9bf501128f3f]
+2021-04-26 11:58:07.468 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:58:07.468 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=40e58e5b-dc75-47b4-a5bc-9345cb8c0386]
+2021-04-26 11:58:07.469 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:58:07.469 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:58:07.471 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:58:07.481 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=c9c5cded-2d40-4464-8d84-e20b15de936f]
+2021-04-26 11:58:07.481 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:58:07.481 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=b321f854-07b6-447d-8c4a-37d360f0e682]
+2021-04-26 11:58:07.482 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:58:07.482 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=4cec4c4d-30fd-402d-b910-fb6cc5087c02]
+2021-04-26 11:58:07.482 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:58:07.482 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:58:07.482 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:59:11.975 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 8580 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 11:59:11.978 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 11:59:12.662 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 11:59:12.665 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 11:59:12.688 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-26 11:59:12.926 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$8be36175] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 11:59:13.171 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 11:59:13.179 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:59:13.179 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 11:59:13.179 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 11:59:13.247 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 11:59:13.247 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1219 ms
+2021-04-26 11:59:16.892 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 11:59:16.960 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 11:59:17.284 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 11:59:17.301 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 11:59:17.302 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 11:59:17.332 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#3d88e6b9:0/SimpleConnection@236fd411 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59270]
+2021-04-26 11:59:17.337 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-y8_41K4dRteZxvF5fNwFlQ) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:59:17.338 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-L4D-mGW3SQS6rli6tTrbBw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 11:59:17.410 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 6.055 seconds (JVM running for 7.037)
+2021-04-26 11:59:25.234 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 11:59:25.234 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 11:59:25.235 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-26 11:59:25.267 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:59:25.269 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=4cfb5f3e-de64-40a2-9187-b2cf675bec9c]
+2021-04-26 11:59:25.270 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:59:25.271 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:59:25.271 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=50ce661e-07b8-4cc7-801a-bbc61cc76de4]
+2021-04-26 11:59:25.271 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:59:25.276 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=3afdfa25-e700-4384-b4a7-5513e55d2a0b]
+2021-04-26 11:59:25.276 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=d45735ae-aeb9-4818-9329-3dd60188fab3]
+2021-04-26 11:59:25.276 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:59:25.276 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:59:25.276 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:59:25.277 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 11:59:25.278 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=23ecfbde-98b5-4c48-8e91-311c2dd5f99f]
+2021-04-26 11:59:25.278 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 11:59:25.278 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:13:06.591 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 14956 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 13:13:06.594 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 13:13:07.379 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 13:13:07.381 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 13:13:07.407 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-26 13:13:07.651 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$eb478ccd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 13:13:07.897 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 13:13:07.905 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 13:13:07.905 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 13:13:07.905 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 13:13:07.974 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 13:13:07.974 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1325 ms
+2021-04-26 13:13:08.913 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 13:13:08.989 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 13:13:09.326 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 13:13:09.343 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 13:13:09.345 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 13:13:09.375 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#72543547:0/SimpleConnection@67c0c90b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57140]
+2021-04-26 13:13:09.380 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-e5bz-K14Rx2Z24gWkKyQfA) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 13:13:09.380 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-FbNSVcs9SbaoPKl-asrWLw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 13:13:09.443 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.506 seconds (JVM running for 4.442)
+2021-04-26 13:13:46.924 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 13:13:46.924 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 13:13:46.925 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-26 13:13:46.953 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:13:46.957 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=b022f5d3-54ff-4789-a2de-780eb8b42fd7]
+2021-04-26 13:13:46.959 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:13:46.959 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=bbc0ad51-5613-4d58-976a-dd77db0f6de4]
+2021-04-26 13:13:46.959 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:13:46.959 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:13:46.962 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:13:46.962 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=cd3ec90e-7c71-4203-9a19-d15a6fc04c11]
+2021-04-26 13:13:46.963 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:13:46.963 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:13:46.963 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=93d50e32-66d6-486d-9c53-9545c0d6595a]
+2021-04-26 13:13:46.963 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=65c39845-53ad-4e89-9ed7-8cf38dc3ddad]
+2021-04-26 13:13:46.963 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:13:46.963 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:13:46.963 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:42.241 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:42.244 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=64a64b52-f20b-415b-9ad6-66244aa5558a]
+2021-04-26 13:14:42.245 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:42.246 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:42.246 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=2496dee6-80ff-498d-a156-c403538265f1]
+2021-04-26 13:14:42.246 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:42.246 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=eb2fa076-289f-4830-843f-75879ef2d1ea]
+2021-04-26 13:14:42.248 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:42.249 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:42.249 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=96435eb1-90fd-4155-8b1d-2b3a66932cfd]
+2021-04-26 13:14:42.249 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=d63853c7-6ed4-4bd2-92b1-19da0985ba77]
+2021-04-26 13:14:42.249 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:42.249 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:42.250 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:42.251 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:51.282 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:51.283 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:51.286 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=196f4c09-a013-44db-b68d-3dcfc0777d5c]
+2021-04-26 13:14:51.286 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=02d13061-2fa1-42b8-a3a3-16637f2480ef]
+2021-04-26 13:14:51.286 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:51.286 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:51.290 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=e011f9d1-efc8-4b95-81ae-7f8839a52e91]
+2021-04-26 13:14:51.290 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=fb7e67a6-d73a-45bf-9e7a-fd0563e579a8]
+2021-04-26 13:14:51.290 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:51.290 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:51.290 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:14:51.291 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:51.291 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=7c88fbda-b508-4298-8bf4-ad831ba44cb8]
+2021-04-26 13:14:51.291 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:14:51.291 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:16:25.354 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=c0f69f23-bfdf-46fc-ae8b-e6c1e69db08a]
+2021-04-26 13:16:28.619 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:16:28.619 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=49c193eb-bec1-478a-bfee-62fd5007cc89]
+2021-04-26 13:16:28.619 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:16:28.621 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=57f70c17-43b1-42a9-b2da-e6187d4dea07]
+2021-04-26 13:16:28.622 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:16:28.623 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=a958f05b-abc3-4243-a461-6e555b66f32f]
+2021-04-26 13:16:28.623 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=956ad6c1-ea4e-4ab5-b8c8-12efaf380205]
+2021-04-26 13:16:28.624 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:16:28.624 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:16:28.625 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:16:30.432 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:16:31.432 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:16:31.433 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:16:31.433 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列A当中的消息：我发送的是多个消息》》》
+2021-04-26 13:18:43.978 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 8964 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 13:18:43.980 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 13:18:44.626 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 13:18:44.629 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 13:18:44.653 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-26 13:18:44.886 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$eb478ccd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 13:18:45.131 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 13:18:45.140 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 13:18:45.140 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 13:18:45.141 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 13:18:45.210 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 13:18:45.210 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1188 ms
+2021-04-26 13:18:46.092 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 13:18:46.159 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 13:18:46.483 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 13:18:46.500 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 13:18:46.502 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 13:18:46.531 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#72543547:0/SimpleConnection@67c0c90b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57339]
+2021-04-26 13:18:46.535 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-ySL-iNICQj-pJnkIRVTz1A) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 13:18:46.536 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-Mv4glSYfTeiuI1ZUWFJu9w) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 13:18:46.596 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.173 seconds (JVM running for 4.117)
+2021-04-26 13:22:32.850 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 13:22:32.850 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 13:22:32.851 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-04-26 13:22:32.885 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[Ljava.lang.String;@25190f67
+2021-04-26 13:22:32.885 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:22:32.890 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=3dc3755c-9aab-4414-a17c-90f86b399ab7]
+2021-04-26 13:22:32.890 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:22:32.891 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=4648a1b3-9bbf-4595-ae3a-e088df082eaa]
+2021-04-26 13:22:32.891 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=c6b16d75-a297-47fc-8695-bdcbd889d1d0]
+2021-04-26 13:22:32.891 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[Ljava.lang.String;@4fd827b0
+2021-04-26 13:22:32.892 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:22:32.892 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:22:32.892 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:22:32.892 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[Ljava.lang.String;@22d77b1b
+2021-04-26 13:22:32.893 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:22:32.916 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=66ead873-2e19-49ad-bcd9-d9da301038aa]
+2021-04-26 13:22:32.916 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:22:32.916 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[Ljava.lang.String;@5d0918f
+2021-04-26 13:22:32.916 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:22:32.917 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=5a68fd5f-baec-41fc-8422-17c499d59b4e]
+2021-04-26 13:22:32.917 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[Ljava.lang.String;@322315ef
+2021-04-26 13:22:32.917 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:22:32.917 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:24:17.323 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 14556 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-26 13:24:17.326 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-26 13:24:18.010 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-26 13:24:18.012 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-26 13:24:18.036 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-26 13:24:18.274 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$d025851d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-26 13:24:18.535 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-26 13:24:18.544 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-26 13:24:18.545 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-26 13:24:18.545 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-26 13:24:18.630 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-26 13:24:18.631 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1257 ms
+2021-04-26 13:24:19.567 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 13:24:19.631 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-26 13:24:20.009 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-26 13:24:20.027 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-26 13:24:20.029 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-26 13:24:20.058 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#36068727:0/SimpleConnection@4fedf908 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57624]
+2021-04-26 13:24:20.062 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-rkp3FEjXRLWY19MjnJkXwg) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 13:24:20.062 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-L7oh_ucfRJ-zVlDUS6TqeQ) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-26 13:24:20.124 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.393 seconds (JVM running for 4.416)
+2021-04-26 13:24:27.253 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-26 13:24:27.253 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-26 13:24:27.254 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-26 13:24:27.285 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[QUEUE_A, QUEUE_B, QUEUE_C]
+2021-04-26 13:24:27.285 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:24:27.288 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=02503e78-8b95-43a9-9250-40d4727d1c64]
+2021-04-26 13:24:27.289 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:24:27.290 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=8a5fc140-880c-4eef-8b73-ea78d67313f1]
+2021-04-26 13:24:27.290 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:24:27.290 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=b044beaa-fbe6-41fc-80e1-80b15d1f8941]
+2021-04-26 13:24:27.291 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:24:27.291 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[QUEUE_A, QUEUE_B, QUEUE_C]
+2021-04-26 13:24:27.291 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:24:27.293 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[QUEUE_A, QUEUE_B, QUEUE_C]
+2021-04-26 13:24:27.293 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:24:27.314 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=b75ad71d-5e69-4bc3-93ab-6017b2b896ba]
+2021-04-26 13:24:27.315 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-26 13:24:27.315 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[QUEUE_A, QUEUE_B, QUEUE_C]
+2021-04-26 13:24:27.315 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:24:27.315 INFO  com.atguigu.conf.RabbitmqConfig - 队列名称[QUEUE_A, QUEUE_B, QUEUE_C]
+2021-04-26 13:24:27.315 INFO  com.atguigu.conf.RabbitmqConfig - 接收处理队列ABC当中的消息：我发送的是多个消息》》》
+2021-04-26 13:24:27.315 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=433091fb-a38c-4c53-a224-1f75dea1b894]
+2021-04-26 13:24:27.315 INFO  com.atguigu.controller.MsgProducer - 消息消费成功

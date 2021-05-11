@@ -1,0 +1,199 @@
+2021-04-09 13:39:01.424 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 14636 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 13:39:01.432 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 13:39:02.322 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 13:39:02.324 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 13:39:02.358 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-09 13:39:02.914 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 13:39:02.923 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 13:39:02.924 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 13:39:02.924 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 13:39:03.011 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 13:39:03.011 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1516 ms
+2021-04-09 13:39:03.896 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 13:39:04.261 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 13:39:04.293 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 13:39:04.303 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 4.118 seconds (JVM running for 5.639)
+2021-04-09 13:44:31.274 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 13:44:31.274 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 13:44:31.276 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-09 14:32:12.038 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 20152 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 14:32:12.040 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 14:32:12.658 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 14:32:12.661 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 14:32:12.691 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-09 14:32:13.133 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 14:32:13.141 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 14:32:13.142 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 14:32:13.142 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 14:32:13.221 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 14:32:13.221 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1136 ms
+2021-04-09 14:32:13.975 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 14:32:14.296 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 14:32:14.319 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 14:32:14.328 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 2.935 seconds (JVM running for 3.9)
+2021-04-09 14:32:25.930 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 14:32:25.931 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 14:32:25.932 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-09 14:33:33.515 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 19460 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 14:33:33.517 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 14:33:34.175 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 14:33:34.182 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 14:33:34.207 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-09 14:33:34.695 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 14:33:34.704 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 14:33:34.705 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 14:33:34.705 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 14:33:34.802 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 14:33:34.802 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1236 ms
+2021-04-09 14:33:35.615 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 14:33:35.956 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 14:33:35.981 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 14:33:35.991 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.092 seconds (JVM running for 4.121)
+2021-04-09 14:33:36.171 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 14:33:36.172 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 14:33:36.173 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-09 14:58:53.076 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 15292 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 14:58:53.078 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 14:58:53.680 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 14:58:53.682 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 14:58:53.705 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-04-09 14:58:54.151 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 14:58:54.160 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 14:58:54.160 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 14:58:54.160 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 14:58:54.240 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 14:58:54.240 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1117 ms
+2021-04-09 14:58:55.017 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 14:58:55.337 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 14:58:55.360 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 14:58:55.370 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 2.959 seconds (JVM running for 4.003)
+2021-04-09 14:59:07.618 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 14:59:07.618 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 14:59:07.619 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-09 14:59:39.279 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 17844 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 14:59:39.282 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 14:59:39.890 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 14:59:39.892 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 14:59:39.920 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-04-09 14:59:40.360 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 14:59:40.368 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 14:59:40.369 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 14:59:40.369 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 14:59:40.447 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 14:59:40.448 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1113 ms
+2021-04-09 14:59:41.195 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 14:59:41.528 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 14:59:41.548 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 14:59:41.558 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 2.858 seconds (JVM running for 3.849)
+2021-04-09 14:59:47.968 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 14:59:47.969 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 14:59:47.969 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2021-04-09 15:00:16.178 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 18608 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 15:00:16.181 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 15:00:16.787 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 15:00:16.789 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 15:00:16.819 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-04-09 15:00:17.270 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 15:00:17.281 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 15:00:17.282 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 15:00:17.282 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 15:00:17.366 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 15:00:17.367 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1138 ms
+2021-04-09 15:00:18.214 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:00:18.547 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 15:00:18.572 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 15:00:18.581 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 2.993 seconds (JVM running for 3.99)
+2021-04-09 15:03:50.613 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 15:03:50.613 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 15:03:50.614 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-09 15:03:55.750 INFO  com.atguigu.conf.WebSocketServer - 用户连接：1,当前在线人数为:1
+2021-04-09 15:04:00.420 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:123
+2021-04-09 15:04:21.075 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:123
+2021-04-09 15:08:29.613 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:123
+2021-04-09 15:10:48.844 INFO  com.atguigu.conf.WebSocketServer - 用户退出：1,当前在线人数为:1
+2021-04-09 15:10:52.702 INFO  com.atguigu.conf.WebSocketServer - 用户连接：1,当前在线人数为:2
+2021-04-09 15:10:57.484 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:{"toUserId":"1","sex":"男"}
+2021-04-09 15:11:53.259 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:{"toUserId":"1","sex":"男"}
+2021-04-09 15:21:52.359 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 15812 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 15:21:52.362 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 15:21:53.040 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 15:21:53.042 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 15:21:53.071 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-04-09 15:21:53.507 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 15:21:53.515 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 15:21:53.516 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 15:21:53.516 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 15:21:53.600 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 15:21:53.600 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1186 ms
+2021-04-09 15:21:54.362 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:21:54.672 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 15:21:54.694 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 15:21:54.703 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 2.971 seconds (JVM running for 3.988)
+2021-04-09 15:22:23.361 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 15:22:23.361 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 15:22:23.362 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-09 16:45:01.021 INFO  com.atguigu.conf.WebSocketServer - 用户连接：1,当前在线人数为:1
+2021-04-09 16:45:04.473 INFO  com.atguigu.conf.WebSocketServer - 用户退出：1,当前在线人数为:1
+2021-04-09 16:45:04.482 INFO  com.atguigu.conf.WebSocketServer - 用户连接：1,当前在线人数为:2
+2021-04-09 16:45:09.533 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:{"toUserId":"1","sex":"男"}
+2021-04-09 16:45:11.073 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:{"toUserId":"1","sex":"男"}
+2021-04-09 16:51:39.387 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 20144 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 16:51:39.390 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 16:51:40.107 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 16:51:40.114 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 16:51:40.137 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-04-09 16:51:40.589 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 16:51:40.597 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 16:51:40.598 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 16:51:40.598 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 16:51:40.682 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 16:51:40.683 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1223 ms
+2021-04-09 16:51:41.436 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 16:51:41.773 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 16:51:41.797 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 16:51:41.806 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.167 seconds (JVM running for 4.254)
+2021-04-09 16:52:00.510 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 16:52:00.510 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 16:52:00.511 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-09 16:52:02.888 INFO  com.atguigu.conf.WebSocketServer - 用户连接：1,当前在线人数为:1
+2021-04-09 17:08:48.350 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:{"toUserId":"1","sex":"男"}
+2021-04-09 17:18:35.867 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 2748 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 17:18:35.870 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 17:18:36.522 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 17:18:36.524 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 17:18:36.564 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-09 17:18:37.013 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 17:18:37.021 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 17:18:37.022 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 17:18:37.022 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 17:18:37.101 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 17:18:37.101 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1155 ms
+2021-04-09 17:18:37.922 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 17:18:38.236 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 17:18:38.257 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 17:18:38.266 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.012 seconds (JVM running for 4.694)
+2021-04-09 17:20:23.590 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 17:20:23.590 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 17:20:23.591 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-09 17:20:26.782 INFO  com.atguigu.conf.WebSocketServer - 用户连接：1,当前在线人数为:1
+2021-04-09 17:20:30.236 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:{"toUserId":"1","sex":"男"}
+2021-04-09 17:20:31.873 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:{"toUserId":"1","sex":"男"}
+2021-04-09 17:20:33.174 INFO  com.atguigu.conf.WebSocketServer - 用户消息：1,报文:{"toUserId":"1","sex":"男"}
+2021-04-09 17:40:45.467 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 17440 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-09 17:40:45.469 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-09 17:40:46.222 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-09 17:40:46.225 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-09 17:40:46.262 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-04-09 17:40:46.800 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-09 17:40:46.810 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-09 17:40:46.810 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-09 17:40:46.810 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-09 17:40:46.900 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-09 17:40:46.900 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1367 ms
+2021-04-09 17:40:47.779 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 17:40:48.205 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-09 17:40:48.230 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-09 17:40:48.242 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.649 seconds (JVM running for 5.367)
+2021-04-09 17:41:06.731 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 17:41:06.731 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-09 17:41:06.732 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms

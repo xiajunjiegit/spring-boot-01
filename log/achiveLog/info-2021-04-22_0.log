@@ -1,0 +1,37 @@
+2021-04-22 09:02:33.885 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 3304 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-22 09:02:33.897 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-22 09:02:36.006 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-22 09:02:36.010 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-22 09:02:36.062 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2021-04-22 09:02:36.698 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$69b392e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-22 09:02:37.202 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-22 09:02:37.216 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-22 09:02:37.217 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-22 09:02:37.217 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-22 09:02:37.386 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-22 09:02:37.387 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3416 ms
+2021-04-22 09:02:39.116 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-22 09:02:39.224 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-22 09:02:39.900 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-22 09:02:39.940 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-22 09:02:39.943 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-22 09:02:40.055 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#4c19d42e:0/SimpleConnection@f3876ef [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50548]
+2021-04-22 09:02:40.136 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 7.378 seconds (JVM running for 10.452)
+2021-04-22 09:06:59.776 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-22 09:06:59.777 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-22 09:06:59.779 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-04-22 09:06:59.870 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=6b8170e1-4ac6-4c0c-b214-e26161a5d21b]
+2021-04-22 09:06:59.870 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-22 09:06:59.874 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=0931f69a-a3f2-4816-b232-27dff7c65332]
+2021-04-22 09:06:59.874 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-22 09:06:59.875 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=abdc30a5-08d5-499b-8715-fb2e7e76a4cf]
+2021-04-22 09:06:59.875 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-22 09:06:59.878 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=df8f79d7-6f6d-4b77-a046-4169d1e5fa35]
+2021-04-22 09:06:59.878 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-22 09:06:59.880 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=7a303c9d-3eb9-49a2-83c0-07b0d875725b]
+2021-04-22 09:06:59.880 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-22 09:06:59.897 INFO  com.atguigu.controller.MsgReceiverC_one - 处理器one接收处理队列A当中的消息： 这是我发的消息
+2021-04-22 09:06:59.897 INFO  com.atguigu.controller.MsgReceiverC_two - 处理器two接收处理队列A当中的消息： 这是我发的消息
+2021-04-22 09:06:59.899 INFO  com.atguigu.controller.MsgReceiverC_one - 处理器one接收处理队列A当中的消息： 这是我发的消息
+2021-04-22 09:06:59.899 INFO  com.atguigu.controller.MsgReceiverC_two - 处理器two接收处理队列A当中的消息： 这是我发的消息
+2021-04-22 09:06:59.899 INFO  com.atguigu.controller.MsgReceiverC_one - 处理器one接收处理队列A当中的消息： 这是我发的消息

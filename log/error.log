@@ -1,0 +1,54 @@
+2021-04-26 11:54:11.669 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field msgReceiver in com.atguigu.test.TestRabbitmq required a bean of type 'com.atguigu.controller.MsgReceiver' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.atguigu.controller.MsgReceiver' in your configuration.
+
+2021-04-26 11:54:45.087 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field msgReceiver in com.atguigu.test.TestRabbitmq required a bean of type 'com.atguigu.controller.MsgReceiver' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.atguigu.controller.MsgReceiver' in your configuration.
+
+2021-04-26 11:55:17.446 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field msgReceiver in com.atguigu.test.TestRabbitmq required a bean of type 'com.atguigu.controller.MsgReceiver' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.atguigu.controller.MsgReceiver' in your configuration.
+

@@ -1,0 +1,113 @@
+2021-04-23 09:57:13.786 INFO  com.atguigu.TestRabbitmq - Starting TestRabbitmq using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 9844 (started by ADMIN in D:\project\spring-boot-01)
+2021-04-23 09:57:13.798 INFO  com.atguigu.TestRabbitmq - No active profile set, falling back to default profiles: default
+2021-04-23 09:57:15.848 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 09:57:15.866 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 09:57:15.903 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2021-04-23 09:57:16.502 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$cdf5e98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 09:57:18.688 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-23 09:59:21.300 INFO  com.atguigu.TestRabbitmq - Starting TestRabbitmq using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 5432 (started by ADMIN in D:\project\spring-boot-01)
+2021-04-23 09:59:21.303 INFO  com.atguigu.TestRabbitmq - No active profile set, falling back to default profiles: default
+2021-04-23 09:59:22.099 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 09:59:22.103 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 09:59:22.129 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-04-23 09:59:22.502 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$f1c6682b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 09:59:24.686 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 09:59:24.805 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-23 09:59:25.750 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-23 09:59:25.866 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#49ede9c7:0/SimpleConnection@2e362407 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53039]
+2021-04-23 09:59:25.873 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-xGO8o1EqQ3yWD1vyOpRF5A) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-23 09:59:25.873 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-Mvw3yBwGSmizIAN8NvWn1A) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-23 09:59:25.965 INFO  com.atguigu.TestRabbitmq - Started TestRabbitmq in 5.231 seconds (JVM running for 6.244)
+2021-04-23 09:59:26.393 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 09:59:26.954 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 09:59:26.955 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 09:59:27.957 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 09:59:27.972 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 09:59:28.398 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 09:59:28.405 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 09:59:29.400 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 09:59:29.402 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 09:59:29.402 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 09:59:29.402 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 09:59:29.403 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 09:59:29.403 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 10:01:32.610 INFO  com.atguigu.TestRabbitmq - Starting TestRabbitmq using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 5608 (started by ADMIN in D:\project\spring-boot-01)
+2021-04-23 10:01:32.614 INFO  com.atguigu.TestRabbitmq - No active profile set, falling back to default profiles: default
+2021-04-23 10:01:33.784 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 10:01:33.792 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 10:01:33.830 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2021-04-23 10:01:34.429 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$f1c6682b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 10:01:37.009 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 10:01:37.170 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-23 10:01:38.082 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-23 10:01:38.203 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#49ede9c7:0/SimpleConnection@440ef8d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53134]
+2021-04-23 10:01:38.212 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-ne8HIoH6SheXwZOTT3Zwog) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-23 10:01:38.212 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-8ws9rAIjRxq4W_54f7cZxw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-23 10:01:38.363 INFO  com.atguigu.TestRabbitmq - Started TestRabbitmq in 6.661 seconds (JVM running for 8.101)
+2021-04-23 10:01:38.664 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:01:39.316 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:01:39.411 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:01:40.422 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:01:40.433 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:01:40.670 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:01:40.675 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:01:41.422 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:01:41.425 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:01:41.426 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:01:41.426 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:01:41.426 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:01:41.427 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 10:04:03.265 INFO  com.atguigu.TestRabbitmq - Starting TestRabbitmq using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 8516 (started by ADMIN in D:\project\spring-boot-01)
+2021-04-23 10:04:03.270 INFO  com.atguigu.TestRabbitmq - No active profile set, falling back to default profiles: default
+2021-04-23 10:04:04.192 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 10:04:04.195 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 10:04:04.225 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-04-23 10:04:04.603 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$f1c6682b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 10:04:06.831 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 10:04:06.971 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-23 10:04:07.746 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-23 10:04:07.819 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#49ede9c7:0/SimpleConnection@440ef8d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53312]
+2021-04-23 10:04:07.825 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-0eNOTb_lRsKfXBdD55wu-Q) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-23 10:04:07.825 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-dZzT-zlAQTOQ3Yst5R7EpQ) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-23 10:04:07.918 INFO  com.atguigu.TestRabbitmq - Started TestRabbitmq in 5.215 seconds (JVM running for 6.17)
+2021-04-23 10:04:08.213 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:04:08.910 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:04:08.919 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:04:09.911 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:04:09.917 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:04:10.221 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:04:10.227 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:04:10.927 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:04:10.929 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:04:10.929 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:04:10.929 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:04:10.929 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:04:10.930 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 10:04:42.352 INFO  com.atguigu.TestRabbitmq - Starting TestRabbitmq using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 12688 (started by ADMIN in D:\project\spring-boot-01)
+2021-04-23 10:04:42.355 INFO  com.atguigu.TestRabbitmq - No active profile set, falling back to default profiles: default
+2021-04-23 10:04:43.248 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 10:04:43.255 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 10:04:43.284 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2021-04-23 10:04:43.805 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$f1c6682b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 10:04:46.210 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 10:04:46.390 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-23 10:04:47.339 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-23 10:04:47.541 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#49ede9c7:0/SimpleConnection@2e362407 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53336]
+2021-04-23 10:04:47.551 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-1TcJA27QTGywr9njuq40Jw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-23 10:04:47.551 INFO  org.springframework.amqp.rabbit.core.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (spring.gen-O1nqTqJ1RSCwDOBuWL26uw) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-04-23 10:04:47.784 INFO  com.atguigu.TestRabbitmq - Started TestRabbitmq in 6.172 seconds (JVM running for 7.875)
+2021-04-23 10:04:48.081 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:04:48.773 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:04:48.776 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:04:49.781 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:04:49.785 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:04:49.785 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:04:49.789 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-04-23 10:04:50.078 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-04-23 10:04:50.080 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:04:50.080 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:04:50.080 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:04:50.080 INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-04-23 10:04:50.081 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

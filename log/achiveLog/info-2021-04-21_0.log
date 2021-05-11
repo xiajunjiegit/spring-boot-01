@@ -1,0 +1,119 @@
+2021-04-21 13:12:33.925 INFO  com.atguigu.SpringBoot01ApplicationTests - Starting SpringBoot01ApplicationTests using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 8148 (started by ADMIN in D:\project\spring-boot-01)
+2021-04-21 13:12:33.933 INFO  com.atguigu.SpringBoot01ApplicationTests - No active profile set, falling back to default profiles: default
+2021-04-21 13:12:35.944 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-21 13:12:35.948 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-21 13:12:35.975 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-04-21 13:12:36.581 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$d6b37d28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-21 13:12:38.529 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-21 17:16:43.703 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 4548 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-21 17:16:43.705 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-21 17:16:44.304 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-21 17:17:13.549 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 13576 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-21 17:17:13.552 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-21 17:17:14.072 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-21 17:19:40.085 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 16564 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-21 17:19:40.088 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-21 17:19:40.798 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-21 17:19:40.800 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-21 17:19:40.824 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-21 17:19:41.062 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$80a53a71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-21 17:19:41.485 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-21 17:19:41.493 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-21 17:19:41.494 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-21 17:19:41.494 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-21 17:19:41.565 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-21 17:19:41.565 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1422 ms
+2021-04-21 17:19:42.665 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-21 17:19:42.753 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-21 17:19:43.272 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-21 17:19:43.291 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-21 17:19:43.293 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-21 17:19:43.328 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#134f8ef6:0/SimpleConnection@460eb276 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54574]
+2021-04-21 17:19:43.393 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.98 seconds (JVM running for 4.979)
+2021-04-21 17:19:55.025 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-21 17:19:55.025 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-21 17:19:55.027 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-04-21 17:19:55.113 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=48527ab9-b34a-4f68-a7b6-b1cbaad5657b]
+2021-04-21 17:19:55.113 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-21 17:19:55.124 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：这是我发的消息
+2021-04-21 17:28:34.877 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 3380 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-21 17:28:34.879 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-21 17:28:35.508 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-21 17:28:35.510 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-21 17:28:35.533 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-04-21 17:28:35.774 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$5bea6bae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-21 17:28:36.020 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-21 17:28:36.028 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-21 17:28:36.028 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-21 17:28:36.028 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-21 17:28:36.096 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-21 17:28:36.097 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1176 ms
+2021-04-21 17:28:36.985 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-21 17:28:37.049 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-21 17:28:37.386 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-21 17:28:37.404 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-21 17:28:37.406 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-21 17:28:37.436 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#9accff0:0/SimpleConnection@49e62b17 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55221]
+2021-04-21 17:28:37.494 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.209 seconds (JVM running for 4.153)
+2021-04-21 17:29:14.716 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-21 17:29:14.716 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-21 17:29:14.717 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-21 17:29:14.751 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=b7b4c903-67ec-4767-ad07-9b99a2de6c76]
+2021-04-21 17:29:14.751 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-21 17:29:14.755 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：这是我发的消息
+2021-04-21 17:31:05.908 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 12224 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-21 17:31:05.912 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-21 17:31:06.575 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-21 17:31:06.577 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-21 17:31:06.599 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-21 17:31:06.835 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$5bea6bae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-21 17:31:07.098 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-21 17:31:07.107 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-21 17:31:07.108 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-21 17:31:07.108 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-21 17:31:07.175 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-21 17:31:07.175 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1215 ms
+2021-04-21 17:31:08.060 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-21 17:31:08.128 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-21 17:31:08.468 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-21 17:31:08.487 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-21 17:31:08.489 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-21 17:31:08.520 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#9accff0:0/SimpleConnection@7df3da0b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55373]
+2021-04-21 17:31:08.578 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.302 seconds (JVM running for 4.27)
+2021-04-21 17:31:54.062 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-21 17:31:54.062 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-21 17:31:54.063 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-21 17:31:54.109 INFO  com.atguigu.controller.MsgReceiver - 接收处理队列A当中的消息：这是我发的消息
+2021-04-21 17:31:54.111 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=c58848ae-472b-436e-b3cb-8cccc2d41471]
+2021-04-21 17:31:54.111 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-21 17:34:26.590 INFO  com.atguigu.SpringBoot01Application - Starting SpringBoot01Application using Java 1.8.0_91 on DESKTOP-GFVPL3E with PID 10252 (D:\project\spring-boot-01\target\classes started by ADMIN in D:\project\spring-boot-01)
+2021-04-21 17:34:26.592 INFO  com.atguigu.SpringBoot01Application - No active profile set, falling back to default profiles: default
+2021-04-21 17:34:27.253 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-21 17:34:27.255 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-21 17:34:27.278 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-04-21 17:34:27.546 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.atguigu.conf.RedisConfig$$EnhancerBySpringCGLIB$$f6ad5d42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-21 17:34:27.809 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2021-04-21 17:34:27.818 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8086"]
+2021-04-21 17:34:27.819 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-21 17:34:27.819 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-21 17:34:27.886 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-21 17:34:27.886 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1247 ms
+2021-04-21 17:34:28.745 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-21 17:34:28.811 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-04-21 17:34:29.142 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8086"]
+2021-04-21 17:34:29.159 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (http) with context path ''
+2021-04-21 17:34:29.162 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: 127.0.0.1:5672
+2021-04-21 17:34:29.191 INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: connectionFactory#6a32191e:0/SimpleConnection@6cd7f381 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55549]
+2021-04-21 17:34:29.249 INFO  com.atguigu.SpringBoot01Application - Started SpringBoot01Application in 3.284 seconds (JVM running for 4.206)
+2021-04-21 17:34:35.587 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-21 17:34:35.587 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-21 17:34:35.588 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-21 17:34:35.623 INFO  com.atguigu.controller.MsgProducer - 回调id：CorrelationData [id=87104a6a-8872-452f-ab97-8d24f9f77c73]
+2021-04-21 17:34:35.623 INFO  com.atguigu.controller.MsgProducer - 消息消费成功
+2021-04-21 17:34:35.627 INFO  com.atguigu.controller.MsgReceiverC_one - 处理器one接收处理队列A当中的消息： 这是我发的消息
